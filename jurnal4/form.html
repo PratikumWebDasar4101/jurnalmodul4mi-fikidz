@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="proses.php" method="POST" enctype="multipart/form-data">
+		<table align="center">
+			<tr>
+				<td colspan="3" align="center"><h2>Data Diri</h2></td>
+			</tr>
+			<tr>
+				<td>Pilih Gambar</td> 
+				<td>:</td>
+				<td><input type="file" name="gambar"></td>
+			</tr>
+			<tr>
+				<td>Pilih Hobi</td>
+				<td>:</td>
+				<td><input type="checkbox" name="hobi[]" value="Membaca">Membaca<br>
+				<input type="checkbox" name="hobi[]" value="Melukis">Melukis<br>
+				<input type="checkbox" name="hobi[]" value="Menggambar">Menggambar<br>
+				<input type="checkbox" name="hobi[]" value="Mewarnai">Mewarnai</td>
+			</tr>
+			<td colspan="3" align="center"><input type="submit" name="submit" value="Submit"></td>
+		</table>
+	</form>
+</body>
+</html>
